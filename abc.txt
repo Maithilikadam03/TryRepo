@@ -1,2 +1,51 @@
-this is my abc
-now hi i m trying second time 
+git config --global user.name "" to set name
+git config --global user.email "xyz@gmail.com" to set email
+
+View name and email by following command
+git config --global user.name
+git config --global user.name
+
+Initilize Git Repo
+git init initialize
+code . open editor
+ls -lart to show hidden or .git folder in current dir
+git status to check the git project status
+git add "filename" to add file for commit
+git commit -m "message or comment" commit the change
+touch "filename" to create blank files
+git add -A to add all the files
+git checkout "filename" match this file with last commit if it commited once and now modified
+git checkout -f match all files with last commit
+git log gives all commits details
+git log -p -"no. of commit fron last' filter the commit
+git diff compare working area with staging area
+git diff --staged comparing staged file with last commit
+git commit -a -m "commit message" commit without staging the file
+git rm --cached "filename" unstage the file
+git rm "filename" delete the file from working directory
+ls list all the files
+git status -sgive short status
+touch .gitignore having file name or dir which is not be tracked
+mylogs.log ignore this file whenever it presents in dir
+/mylogs.log ignore file in which directory .gitignore is present
+*.log ignore the .log extension file
+folder/ ignore the entire directory
+git branch "branch name" create new branch
+git checkout "branch name" switch branch
+git merge merge new branch to master
+git branch list all the branches
+git checkout -b "branch name" create a new branch and switch on it
+git branch -d "branch name" delete a branch from local area
+git branch -D "branch name" delete a branch which is commited once local area
+git remote add "origin" "repo url".git add remote repository
+git remote check the origin name list
+git remote -v fetch and push url
+git push "origin" "branch name" push code on github
+ssh-keygen -t rsa -b 4096 -C "name@email.com" generate ssh key
+eval $(ssh-agent -s) deploy ssh key
+ssh-add ~/.ssh/id_rsa add ssh
+cat ~/.ssh/id_rsa.pub see long ssh key
+git remote set-url "existing origin" "ssh url"
+git push -u "origin" "branchname" push code to github repo in specified branch
+git clone "repo-url" clone repository in repo-url folder
+git clone "repo-url" "repo-1" clone repository in repo-1 folder
